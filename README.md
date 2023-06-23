@@ -9,5 +9,5 @@
 - BOE 1080p Touchscreen Panel
 - RealTek USB 2.0 Card Reader (0BDA-0177)
 - RealTek ALC225 Sound Card
-- Intel Dual Band Wireless AC 3165 Card
+- Intel Dual Band Wireless AC 3165 Card (Supported by [itlwm](https://openintelwireless.github.io/itlwm/Compat.html#dvm-iwn:~:text=Intel(R)%20Dual%20Band%20Wireless%20AC%203165))
 - Intel Integrated Bluetooth Module (8087-0A2A)

@@ -1,5 +1,5 @@
-# Dell_Inspiron_13-7378-Hackintosh
-[Alpha] [WIP] An OpenCore Bootloader EFI for the Dell Inspiron 13 7378 2-in-1 Laptop.
+# OpenCore BSP - Dell Inspiron 13 7378
+## For educational purposes only
 
 ## My Specifications:
 - Intel Core i5-7200U (Kaby Lake) CPU
@@ -14,45 +14,24 @@
 - Intel Integrated Bluetooth Module (8087-0A2A) (Supported by [IntelBluetoothFW](https://openintelwireless.github.io/IntelBluetoothFirmware/Compat.html#supported-devices:~:text=USB%20IDs%20are%3A-,0x8087%2C%200x0a2a,-0x8087%2C%200x07dc))
 
 
-# OpenCore 0.9.3 - Dell Inspiron 5370 i5-8250U
-
-## Only for educational purposes
-
-[![BIOS](https://img.shields.io/badge/BIOS-1.22-important.svg)](https://www.dell.com/support/home/en-us/product-support/product/inspiron-13-5370-laptop/drivers)
-[![OpenCore 
-Version](https://img.shields.io/badge/OpenCore-0.9.3-cyan.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
-[![macOS 
-Ventura](https://img.shields.io/badge/macOS-13.4%20(22F66)-white.svg)](https://www.apple.com/macos/ventura/)
-[![Release](https://img.shields.io/badge/Download-latest-success.svg)](https://github.com/dreamwhite/dell-inspiron-5370-hackintosh/releases/latest)
-[![CI](https://github.com/dreamwhite/dell-inspiron-5370-hackintosh/actions/workflows/main.yml/badge.svg)](https://github.com/dreamwhite/dell-inspiron-5370-hackintosh/actions/workflows/main.yml)
-
-![About this Mac](.assets/docs/about_this_mac.png)
+[About this Mac (placeholder)
 
 ## Specs
 
 | Component      | Brand                                     |
 |----------------|-------------------------------------------|
-| **CPU**        | `Intel Core i5-8250U @ 1.8 GHz`           |
-| **iGPU**       | `Intel UHD Graphics 620`                  |
-| **Storage**    | `Western Digital SN750 Black NVMe 512GB`  |
-| **Audio Code** | `Realtek ALC295 (ALC3254)`                |
-| **WiFi Card**  | `Fenvi BCM94360NG with native firmware`   |
+| **CPU**        | `Intel Core i5-7200U`                     |
+| **iGPU**       | `Intel HD Graphics 620`                   |
+| **Storage**    | `WD Green M.2 2280 SATA III 240GB`        |
+| **Audio Code** | `Realtek ALC225`                          |
+| **WiFi Card**  | `Intel AC 3165 Dual Band Wireless`        |
 | **OS**         | `macOS Ventura 13.4 (22F66)`              |
-| **BIOS**       | `v1.22`                                   |
+| **BIOS**       | `v1.x`                                    |
 
 ## Supported versions
 
 | Version 	| Supported 	|
 |---	|---	|
-| 10.4.x 	| :x: 	|
-| 10.5.x 	| :x: 	|
-| 10.6.x 	| :x: 	|
-| 10.7.x 	| :x: 	|
-| 10.8.x 	| :x: 	|
-| 10.9.x 	| :x: 	|
-| 10.10.x 	| :x: 	|
-| 10.11.x 	| :x: 	|
-| 10.12.x 	| :x: 	|
 | 10.13.x 	| :heavy_exclamation_mark: Untested but should work	|
 | 10.14.x 	| :white_check_mark: 	|
 | 10.15.x 	| :white_check_mark: 	|
@@ -60,7 +39,8 @@ Ventura](https://img.shields.io/badge/macOS-13.4%20(22F66)-white.svg)](https://w
 | 12.x 	| :white_check_mark: 	|
 | 13.x 	| :white_check_mark: 	|
 
-
+----------------------------------
+# (To-do: Edit and adapt from below)
 ### Working/Not working:
 
 ###### Click on the arrow icons to expand the spoilers

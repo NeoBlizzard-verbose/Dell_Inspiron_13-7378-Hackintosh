@@ -25,8 +25,8 @@
 | **Storage**    | `WD Green M.2 2280 SATA III 240GB`        |
 | **Audio Code** | `Realtek ALC225`                          |
 | **WiFi Card**  | `Intel AC 3165 Dual Band Wireless`        |
-| **OS**         | `macOS Ventura 13.4 (22F66)`              |
-| **BIOS**       | `v1.x`                                    |
+| **OS**         | `macOS -`              |
+| **BIOS**       | `v1.36.0`                                 |
 
 ## Supported versions
 

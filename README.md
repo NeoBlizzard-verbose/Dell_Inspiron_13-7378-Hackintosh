@@ -25,7 +25,7 @@
 | **Storage**    | `WD Green M.2 2280 SATA III 240GB`        |
 | **Audio Code** | `Realtek ALC225`                          |
 | **WiFi Card**  | `Intel AC 3165 Dual Band Wireless`        |
-| **OS**         | `macOS -`              |
+| **OS**         | `macOS Monterey`                          |
 | **BIOS**       | `v1.36.0`                                 |
 
 ## Supported versions
@@ -38,6 +38,7 @@
 | 11.x 	| :white_check_mark: 	|
 | 12.x 	| :white_check_mark: 	|
 | 13.x 	| :white_check_mark: 	|
+| 14.x 	| :white_check_mark: 	|
 
 ----------------------------------
 # (To-do: Edit and adapt from below)
@@ -139,21 +140,10 @@ Please note that if you're experiencing weird issues with the viewer, try anothe
 
 ## Issues
 
-If you encounter any issue, please file a bugreport [here](https://github.com/dreamwhite/bugtracker/issues/new?assignees=dreamwhite&labels=bug&template=generic.md&title=)
+If you encounter any issue, please file a bugreport [here]()
 
 ## Credits
 
 * **Apple** for macOS
 * [**Acidanthera**](https://github.com/acidanthera) for OpenCore and the majority of the kexts
-* [**RehabMan**](https://github.com/RehabMan) for contributing to most of the ACPI patching guides I used
-* [**macOS86 and its staff**](https://github.com/macos86) for helping me hackintoshing this laptop
-* [**1alessandro1**](https://github.com/1alessandro1) and [**marianopela**](https://github.com/marianopela) <!-- wamawwo mawwone --> for helping me optimizing this EFI 
 * **every other people that contributed to the hackintosh world :haha:**
-
-## Donate
-
-> This smol project is **free**, **open source** and I aim to provide all the necessary support<br>
-> Why donate? I spend my spare time to work on this project to provide the best documentation ever. Internet is filled of bullshit and unneeded stuff. **THANK YOU!**
-
-[![](https://img.shields.io/badge/donate-paypal-005EA6.svg?logo=paypal)](https://www.paypal.me/dreamwhitedev) [![](https://img.shields.io/badge/donate-ko--fi-29abe0.svg?logo=ko-fi)](https://ko-fi.com/dreamwhite) ![](https://img.shields.io/badge/ethereum-0xb6AAD058f7FF9b6A27467150aD23Ad9e341cC61d-4E8EE9.svg?logo=ethereum)
-

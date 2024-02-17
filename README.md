@@ -8,7 +8,7 @@
 - WD Green M.2 2280 240GB SSD
 - BOE 1080p Touchscreen Panel
 - RealTek USB 2.0 Card Reader (0BDA-0177)
-[Probably the RTS51XX family as per [this](https://github.com/0xFireWolf/RealtekCardReader#:~:text=RTS5179-,USB,-2.0/3.0%20Card) and [this](https://deviceinbox.com/usb/vid-0BDA-pid-0177.html#:~:text=10%0Av.10.0.22621.31277-,Realtek%20USB%202.0/3.0%20CR%20RTS51XX%20Driver,-Windows%2010%2C%20Windows)]
+[Belongs to the RTS51XX family as per [this](https://github.com/0xFireWolf/RealtekCardReader#:~:text=RTS5179-,USB,-2.0/3.0%20Card) and [this](https://deviceinbox.com/usb/vid-0BDA-pid-0177.html#:~:text=10%0Av.10.0.22621.31277-,Realtek%20USB%202.0/3.0%20CR%20RTS51XX%20Driver,-Windows%2010%2C%20Windows)]. (Natively supported).
 - RealTek ALC225 Sound Card ([AppleALC Info✨](https://github.com/dreamwhite/ChonkyAppleALC-Build/blob/master/Realtek/ALC225.md))
 - Intel Dual Band Wireless AC 3165 Card (Supported by [itlwm](https://openintelwireless.github.io/itlwm/Compat.html#dvm-iwn:~:text=Intel(R)%20Dual%20Band%20Wireless%20AC%203165))
 - Intel Integrated Bluetooth Module (8087-0A2A) (Supported by [IntelBluetoothFW](https://openintelwireless.github.io/IntelBluetoothFirmware/Compat.html#supported-devices:~:text=USB%20IDs%20are%3A-,0x8087%2C%200x0a2a,-0x8087%2C%200x07dc))
@@ -32,7 +32,7 @@
 
 | Version 	| Supported 	|
 |---	|---	|
-| 10.13.x 	| :heavy_exclamation_mark: Untested but should work	|
+| 10.13.x 	| :heavy_exclamation_mark: Untested! Should work, theoretically	|
 | 10.14.x 	| :white_check_mark: 	|
 | 10.15.x 	| :white_check_mark: 	|
 | 11.x 	| :white_check_mark: 	|
@@ -48,21 +48,21 @@
 <details>
 <summary>iGPU</summary>
   
-- [x] Intel UHD 620 iGPU Backlight support
-- [x] Intel UHD 620 iGPU HDMI1.4b Output (1920x1080@120Hz)
-- [x] Intel UHD 620 iGPU Type-C to HDMI Output
-- [x] Intel UHD 620 iGPU - H264 & HEVC
+- [x] Intel HD 530 iGPU Backlight support
+- [x] Intel HD 530 iGPU HDMI1.4b Output (1920x1080@120Hz)
+- [x] Intel HD 530 iGPU Type-C to HDMI Output
+- [x] Intel HD 530 iGPU - H264 & HEVC
 </details>
 
 <details>
 <summary>Audio</summary>
   
-- [x] ALC295 Internal Speakers
-- [x] ALC295 Internal Microphone
-- [x] ALC295 Combojack headphones
-- [ ] ALC295 Combojack microphone - Not interested at all
-- [x] ALC295 HDMI Audio Output
-- [x] ALC295 Type-C to HDMI Audio Output
+- [x] ALC225 Internal Speakers
+- [x] ALC225 Internal Microphone
+- [x] ALC225 Combojack headphones
+- [ ] ALC225 Combojack microphone - Not interested at all
+- [x] ALC225 HDMI Audio Output
+- [x] ALC225 Type-C to HDMI Audio Output
 </details>
 
 <details>
@@ -79,15 +79,15 @@
 - [x] Keyboard (PS2 based)
 - [x] HID Key PWRB & SLPB 
 - [x] F11 & F12 remapped brightness keys
-- [x] F13 Print Screen remapped key
-- [x] Multimedia control sound keys
+- [ ] F13 Print Screen remapped key
+- [x] Multimedia control sound keys on the side
 </details>
 
 <details>
 <summary>Trackpad</summary>
   
 - [x] I2C Touchpad with gestures
-- [x] Force Touch
+- [ ] Force Touch
 </details>
 
 
@@ -96,14 +96,13 @@
   
 - [x] SpeedStep
 - [x] Sleep/Wake using both `hibernatemode` `0` and `25`
-- [x] Wi-Fi/BT 4.1 `BCM94360NG` module with Continuity and Airdrop support (both from iPhone to Mac and viceversa)
 - [x] SATA/NVMe PCIe Gen3x4 on M.2 slot
 - [x] Sensors CPU, iGPU, Battery, NVMe, Fans
 - [x] Native ACPI Battery 8-bit support
 - [x] Native NVRAM support
 - [x] Recovery (macOS) boot from OpenCore
 - [x] Windows 10/Linux boot from OpenCore
-- [x] macOS Ventura Continuity Camera
+- [ ] macOS Ventura Continuity Camera
 </details>
 
 ### Documentation
@@ -124,11 +123,7 @@
 
 ## Brightness keys
 
-I've realized (cuz I've removed Windows such as 10 seconds after buying the PC) that the brightness key are not smooth (fluid animation) even in Windows. So I've simply mapped them inside SysPrefs/Keyboard/Shortcuts 
-
-## Gestures
-
-Thanks to VoodooI2C team I've successfully activated native gestures on my hack. Everything is working except 4-fingers gestures, but who cares -_- 
+Fluid brightness switch steps with 'enable-backlight-smoother' WhateverGreen property. Fixed brightness key presses using appropriate SSDTs. [Reference](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/trackpad-methods/manual.html#osi-to-xosi:~:text=584f5349-,Dell%20Machines,-%23)
 
 # IORegistryExplorer dump
 
@@ -146,4 +141,5 @@ If you encounter any issue, please file a bugreport [here]()
 
 * **Apple** for macOS
 * [**Acidanthera**](https://github.com/acidanthera) for OpenCore and the majority of the kexts
+* pixotna for fixing touchscreen and touchpad
 * **every other people that contributed to the hackintosh world :haha:**

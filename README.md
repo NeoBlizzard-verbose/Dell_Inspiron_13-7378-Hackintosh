@@ -1,7 +1,8 @@
 # OpenCore BSP - Dell Inspiron 13 7378
 ## For educational purposes only
 
-[About this Mac (placeholder)
+<img width="698" alt="Screen Shot 2024-02-25 at 9 56 11 PM" src="https://github.com/NeoBlizzard-verbose/Dell_Inspiron_13-7378-Hackintosh/assets/44337253/a4f51524-6c49-46c9-88b9-77cde22deecd">
+
 
 ## Specs
 
@@ -24,8 +25,8 @@
 | 10.15.x 	| :white_check_mark: 	|
 | 11.x 	| :white_check_mark: 	|
 | 12.x 	| :white_check_mark: 	|
-| 13.x 	| :white_check_mark: 	|
-| 14.x 	| :white_check_mark: 	|
+| 13.x 	| ❓ 	|
+| 14.x 	| ❓ 	|
 
 ----------------------------------
 ### Working/Not working:

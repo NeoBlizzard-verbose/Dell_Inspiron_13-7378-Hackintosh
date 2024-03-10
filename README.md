@@ -12,7 +12,7 @@
 | **iGPU**       | `Intel HD Graphics 620`                   |
 | **Storage**    | `WD Green M.2 2280 SATA III 240GB`        |
 | **Audio Code** | `Realtek ALC225` [AppleALC Info✨](https://github.com/dreamwhite/ChonkyAppleALC-Build/blob/master/Realtek/ALC225.md)                          |
-| **WiFi Card**  | `Intel AC 3165 Dual Band Wireless`        |
+| **WiFi Card**  | `Fenvi Broadcom BCM94360NG`               |
 | **OS**         | `macOS Monterey`                          |
 | **BIOS**       | `v1.36.0`                                 |
 

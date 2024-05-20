@@ -117,4 +117,5 @@ If you encounter any other issue, feel free to file it. However, there's no guar
 * [**Acidanthera**](https://github.com/acidanthera) for OpenCore and the majority of the kexts
 * pixotna for fixing touchscreen and touchpad
 * Dreamwhite for this readme layout
+* Ayive for ComboJack-Fix implementation
 * **every other people that contributed to the hackintosh world :haha:**

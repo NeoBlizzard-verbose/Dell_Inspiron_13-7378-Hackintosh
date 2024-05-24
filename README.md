@@ -36,7 +36,7 @@
 <summary>iGPU</summary>
   
 - [x] Intel HD 530 iGPU Backlight support
-- [ ] Intel HD 530 iGPU HDMI1.4b Output (1920x1080@120Hz)
+- [x] Intel HD 530 iGPU HDMI1.4b Output (1920x1080@120Hz)
 - [x] Intel HD 530 iGPU Type-C to HDMI Output
 - [x] Intel HD 530 iGPU - H264 & HEVC
 </details>
@@ -48,9 +48,9 @@ ALC225
 - [x] Internal Speakers
 - [x] Internal Microphone
 - [x] Combojack headphones
-- [ ] Combojack microphone
+- [x] Combojack microphone
 - [ ] HDMI Audio Output
-- [ ] Type-C to HDMI Audio Output
+- [x] Type-C to HDMI Audio Output
 - [x] Type-C Audio Output
 </details>
 
@@ -68,7 +68,7 @@ ALC225
 - [x] Keyboard (PS2 based)
 - [x] HID Key PWRB & SLPB 
 - [x] F11 & F12 remapped brightness keys
-- [ ] F13 Print Screen remapped key
+- [x] F13 Print Screen remapped key
 - [x] Multimedia control sound keys on the side
 </details>
 
@@ -76,7 +76,7 @@ ALC225
 <summary>Trackpad</summary>
   
 - [x] I2C Touchpad with gestures
-- [ ] Force Touch
+- [x] Force Touch
 </details>
 
 
@@ -85,7 +85,7 @@ ALC225
   
 - [x] SpeedStep
 - [x] Sleep/Wake using both `hibernatemode` `0` and `25`
-- [x] SATA/NVMe PCIe Gen3x4 on M.2 slot
+- [ ] Hibernation
 - [x] Sensors CPU, iGPU, Battery, NVMe, Fans
 - [x] Native ACPI Battery 8-bit support
 - [x] Native NVRAM support
@@ -108,7 +108,6 @@ The following tweaks are safe to commit using modGRUBShell. The EFI is adapted t
 
 `setup_var 0x76E 0x3` - Sets DVMT Total Gfx MEM to MAX
 </details>
-
 
 ## Brightness keys
 

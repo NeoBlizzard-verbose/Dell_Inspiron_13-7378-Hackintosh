@@ -95,8 +95,20 @@ ALC225
 </details>
 
 ### Documentation
+WIP
+<details>
+<summary>BIOS Offsets</summary>
+The following tweaks are safe to commit using modGRUBShell. The EFI is adapted to the following tweaks, so, don't cry if the EFI doesn't work when you didn't run the following :)
 
-TBA
+`setup_var_cv Setup 0x4C7 0x01 0x00` - Disables CFG Lock
+
+`setup_var 0x772 0x00` - Disables Above 4G decoding
+
+`setup_var 0x76D 0x2` - Sets DVMT Pre-Alloc to 64M
+
+`setup_var 0x76E 0x3` - Sets DVMT Total Gfx MEM to MAX
+</details>
+
 
 ## Brightness keys
 

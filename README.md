@@ -1,6 +1,6 @@
 # OpenCore BSP - Dell Inspiron 13 7378
 ## For educational purposes only
-
+## Repo is outdated, head to `Releases` if you know what you are doing :)
 <img width="698" alt="Screen Shot 2024-02-25 at 9 56 11 PM" src="https://github.com/NeoBlizzard-verbose/Dell_Inspiron_13-7378-Hackintosh/assets/44337253/a4f51524-6c49-46c9-88b9-77cde22deecd">
 
 

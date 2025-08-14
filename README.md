@@ -91,7 +91,7 @@ ALC225
 - [x] Native NVRAM support
 - [x] Recovery (macOS) boot from OpenCore
 - [x] Windows 10/Linux boot from OpenCore
-- [ ] macOS Ventura Continuity Camera
+- [x] macOS Ventura Continuity Camera
 </details>
 
 ### Documentation

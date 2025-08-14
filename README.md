@@ -25,8 +25,8 @@
 | 10.15.x 	| :white_check_mark: 	|
 | 11.x 	| :white_check_mark: 	|
 | 12.x 	| :white_check_mark: 	|
-| 13.x 	| ❓ 	|
-| 14.x 	| ❓ 	|
+| 13.x 	| :white_check_mark: 	|
+| 14.x 	| unsupported 	|
 
 ----------------------------------
 ### Working/Not working:

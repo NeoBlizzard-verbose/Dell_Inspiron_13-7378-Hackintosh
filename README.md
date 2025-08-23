@@ -1,10 +1,10 @@
 # OpenCore BSP - Dell Inspiron 13 7378
 ## For educational purposes only
-## Repo is outdated, head to `Releases` if you know what you are doing :)
+
 <img width="698" alt="Screen Shot 2024-02-25 at 9 56 11 PM" src="https://github.com/NeoBlizzard-verbose/Dell_Inspiron_13-7378-Hackintosh/assets/44337253/a4f51524-6c49-46c9-88b9-77cde22deecd">
 
 
-## Specs
+## My Specs
 
 | Component      | Brand                                     |
 |----------------|-------------------------------------------|
@@ -13,20 +13,16 @@
 | **Storage**    | `WD Green M.2 2280 SATA III 240GB`        |
 | **Audio Code** | `Realtek ALC225` [AppleALC Info✨](https://github.com/dreamwhite/ChonkyAppleALC-Build/blob/master/Realtek/ALC225.md)                          |
 | **WiFi Card**  | `Fenvi Broadcom BCM94360NG`               |
-| **OS**         | `macOS Monterey`                          |
+| **OS**         | `macOS Ventura`                           |
 | **BIOS**       | `v1.36.0`                                 |
 
-## Supported versions
+## Tested versions
 
 | Version 	| Supported 	|
 |---	|---	|
-| 10.13.x 	| :heavy_exclamation_mark: Untested! Should work, theoretically	|
-| 10.14.x 	| :white_check_mark: 	|
-| 10.15.x 	| :white_check_mark: 	|
-| 11.x 	| :white_check_mark: 	|
 | 12.x 	| :white_check_mark: 	|
 | 13.x 	| :white_check_mark: 	|
-| 14.x 	| unsupported 	|
+| 14.x +| unsupported 	|
 
 ----------------------------------
 ### Working/Not working:
@@ -94,12 +90,13 @@ ALC225
 - [x] macOS Ventura Continuity Camera
 </details>
 
-### Documentation
-WIP
+### Important Notes
+
+The following offsets are necessary to be applied for this EFI, without which it would fail to load the OS! 
+modGRUBShell can be used for the below
+
 <details>
 <summary>BIOS Offsets</summary>
-The following tweaks are safe to commit using modGRUBShell. The EFI is adapted to the following tweaks, so, don't cry if the EFI doesn't work when you didn't run the following :)
-
 `setup_var_cv Setup 0x4C7 0x01 0x00` - Disables CFG Lock
 
 `setup_var 0x772 0x00` - Disables Above 4G decoding
@@ -109,18 +106,14 @@ The following tweaks are safe to commit using modGRUBShell. The EFI is adapted t
 `setup_var 0x76E 0x3` - Sets DVMT Total Gfx MEM to MAX
 </details>
 
-## Brightness keys
+If you are using an Intel WiFi card, head over to [itlwm](https://github.com/OpenIntelWireless/itlwm) to use the right WiFi drivers for your card
 
-Fluid brightness switch steps with 'enable-backlight-smoother' WhateverGreen property. Fixed brightness key presses using appropriate SSDTs. [Reference](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/trackpad-methods/manual.html#osi-to-xosi:~:text=584f5349-,Dell%20Machines,-%23)
 
-# IORegistryExplorer dump
-
-TBA
 
 ## Issues
 
 Currently known issues are found in the issues tab at the top.
-If you encounter any other issue, feel free to file it. However, there's no guarantee that it will be worked upon...
+If you encounter any other issue, feel free to create an issue for it. However, there's no guarantee that it will be worked upon...
 
 ## Credits
 
